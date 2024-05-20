@@ -8,7 +8,7 @@ export const useTheme = () => {
   const [themeLoaded, setThemeLoaded] = useState(false);
 
   const setMode = (mode: DefaultTheme) => {
-    setToLS("tsn-theme", mode.name);
+    setToLS("blue-matrix", mode.name);
     setTheme(mode);
   };
 

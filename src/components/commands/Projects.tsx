@@ -56,27 +56,27 @@ const Projects: React.FC = () => {
 const projects = [
   {
     id: 1,
-    title: "Sat Naing's Blog",
-    desc: "My personal blog where I can write down my thoughts and experiences.",
-    url: "https://satnaing.dev/blog/",
+    title: "Main page",
+    desc: "My personal page, a cool looking card with some information about me, using r3f.",
+    url: "https://www.horumy.dev/",
   },
   {
     id: 2,
-    title: "Haru Fashion",
-    desc: "An ecommerce web application where users can browse various products and make purchases.",
-    url: "https://haru-fashion.vercel.app/",
+    title: "Laptop 98",
+    desc: "A 3D Laptop with a windows 98-like interface. ",
+    url: "https://laptop.horumy.dev/",
   },
   {
     id: 3,
-    title: "Haru API",
-    desc: "A RESTful API developed for the Haru fashion ecommerce project.",
-    url: "https://satnaing.github.io/haru-api/",
+    title: "Marble game",
+    desc: "A web based 3D game made with r3f.",
+    url: "https://marble.horumy.dev/",
   },
   {
     id: 4,
-    title: "AstroPaper Blog Theme",
-    desc: "A minimal, accessible and SEO-friendly Astro blog theme.",
-    url: "https://astro-paper.pages.dev/",
+    title: "WinXP Portfolio",
+    desc: "A portfolio made with the look of Windows XP.",
+    url: "https://portfolioxp.horumy.dev/",
   },
 ];
 

@@ -35,7 +35,9 @@ const Socials: React.FC = () => {
     checkArg()
   ) : (
     <HelpWrapper data-testid="socials">
-      <ProjectsIntro>Here are my social links</ProjectsIntro>
+      <ProjectsIntro>
+        Here are some of my social links where you can reach me out
+      </ProjectsIntro>
       {socials.map(({ id, title, url, tab }) => (
         <CmdList key={title}>
           <Cmd>{`${id}. ${title}`}</Cmd>
@@ -52,25 +54,25 @@ const socials = [
   {
     id: 1,
     title: "GitHub",
-    url: "https://github.com/satnaing",
+    url: "https://github.com/horumyy",
     tab: 3,
   },
   {
     id: 2,
-    title: "Dev.to",
-    url: "https://dev.to/satnaing",
-    tab: 3,
-  },
-  {
-    id: 3,
-    title: "Facebook",
-    url: "https://www.facebook.com/satnaing.dev",
+    title: "LinkedIn",
+    url: "https://www.linkedin.com/in/jorgeplasenciaa/",
     tab: 1,
   },
   {
+    id: 3,
+    title: "Twitter",
+    url: "https://twitter.com/horumy_",
+    tab: 2,
+  },
+  {
     id: 4,
-    title: "Instagram",
-    url: "https://instagram.com/satnaing.dev",
+    title: "Main page",
+    url: "https://www.horumy.dev/",
     tab: 0,
   },
 ];

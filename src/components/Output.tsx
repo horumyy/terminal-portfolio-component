@@ -14,6 +14,8 @@ import Themes from "./commands/Themes";
 import { OutputContainer, UsageDiv } from "./styles/Output.styled";
 import { termContext } from "./Terminal";
 import { useContext } from "react";
+import Thanks from "./commands/Thanks";
+import Work from "./commands/Work";
 
 type Props = {
   index: number;
@@ -34,6 +36,8 @@ const Output: React.FC<Props> = ({ index, cmd }) => {
     <OutputContainer data-testid={index === 0 ? "latest-output" : null}>
       {
         {
+          work: <Work />,
+          thanks: <Thanks />,
           about: <About />,
           clear: <Clear />,
           echo: <Echo />,
@@ -47,7 +51,7 @@ const Output: React.FC<Props> = ({ index, cmd }) => {
           socials: <Socials />,
           themes: <Themes />,
           welcome: <Welcome />,
-          whoami: <GeneralOutput>visitor</GeneralOutput>,
+          whoami: <GeneralOutput>user</GeneralOutput>,
         }[cmd]
       }
     </OutputContainer>
