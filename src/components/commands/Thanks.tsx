@@ -8,11 +8,13 @@ const people = [
     name: "merlinnmoon",
     desc: (
       <CmdDesc className="items-center ">
-        the amazing artist behind my avatar, follow her on{" "}
-        <Link href="https://www.instagram.com/merlinnmoon/" target="_blank">
-          Instagram
-        </Link>
-        !
+        <div className=" inline">
+          the amazing artist behind my avatar, follow her on{" "}
+          <Link href="https://www.instagram.com/merlinnmoon/" target="_blank">
+            Instagram
+          </Link>
+          !
+        </div>
       </CmdDesc>
     ),
     tabs: 5,
@@ -53,8 +55,10 @@ const Thanks: React.FC = () => {
       </p>
       {people.map(({ name, desc, tabs }) => (
         <CmdList key={name}>
-          <Cmd>{name}</Cmd>
-          {generateTabs(tabs)}- {desc}
+          <div className="sm:flex">
+            <Cmd>{name}</Cmd>
+            {generateTabs(tabs)}-<div className="ml-2">{desc}</div>
+          </div>
         </CmdList>
       ))}
     </AboutWrapper>
