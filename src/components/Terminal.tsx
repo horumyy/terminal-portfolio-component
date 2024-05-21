@@ -200,6 +200,7 @@ const Terminal = () => {
           autoComplete="off"
           spellCheck="false"
           autoCapitalize="off"
+          tabIndex={-1}
           ref={inputRef}
           value={inputVal}
           onKeyDown={handleKeyDown}
