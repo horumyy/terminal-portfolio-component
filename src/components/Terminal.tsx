@@ -199,7 +199,6 @@ const Terminal = () => {
           id="terminal-input"
           autoComplete="off"
           spellCheck="false"
-          autoFocus
           autoCapitalize="off"
           ref={inputRef}
           value={inputVal}
