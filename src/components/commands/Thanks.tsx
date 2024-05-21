@@ -8,8 +8,7 @@ const people = [
     name: "merlinnmoon",
     desc: (
       <CmdDesc className="items-center ">
-        an amazing illustrator, she made the avatar used in the favicon, follow
-        her on{" "}
+        the amazing artist behind my avatar, follow her on{" "}
         <Link href="https://www.instagram.com/merlinnmoon/" target="_blank">
           Instagram
         </Link>
