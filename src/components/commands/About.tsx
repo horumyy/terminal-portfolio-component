@@ -5,6 +5,8 @@ import {
 } from "../styles/About.styled";
 
 const About: React.FC = () => {
+  const numberOfYearsSince2021 = new Date().getFullYear() - 2021;
+
   return (
     <AboutWrapper data-testid="about">
       <p>
@@ -24,8 +26,9 @@ const About: React.FC = () => {
       <p>
         I love creating <HighlightAlt>experiences</HighlightAlt> mostly on web,
         <br /> i've been working as a{" "}
-        <HighlightAlt>front-end developer</HighlightAlt> for 3 years, <br /> and
-        recently i've been working with three.js and react-three-fiber
+        <HighlightAlt>front-end developer</HighlightAlt> for{" "}
+        {numberOfYearsSince2021} years, <br /> and recently i've been working
+        with three.js and react-three-fiber
       </p>
     </AboutWrapper>
   );
