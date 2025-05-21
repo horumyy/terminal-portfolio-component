@@ -17,6 +17,14 @@ const Work: React.FC = () => {
 
 const workBg = [
   {
+    title: "Pefai",
+    desc: "Frontend Developer | 2025",
+  },
+  {
+    title: "Lolasux",
+    desc: "Frontend Team Lead | 2024 ~ 2025",
+  },
+  {
     title: "HP Labs",
     desc: "Research & Development Intern | 2023 ~ 2024",
   },
